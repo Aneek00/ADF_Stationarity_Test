@@ -1,0 +1,14 @@
+{
+  "name": "ADF_Stationarity_Test",
+  "repository": "ADF_Stationarity_Test",
+  "version": "1.0.0",
+  "author": "Aneek Sarkar",
+  "license": "Apache-2.0",
+  "summary": "Augmented Dickey-Fuller (ADF) unit-root stationarity test with AIC, BIC, Ng-Perron MAIC, White's HC3 robust inference, Engle ARCH LM test, and diagnostic plots.",
+  "description": "Performs the Augmented Dickey-Fuller (ADF) unit-root test for time-series stationarity in IBM SPSS Statistics. Supports four deterministic specifications (none, constant, linear trend, quadratic trend), automatic lag order selection (AIC, BIC/SIC, sequential t-statistic) or fixed lag, Schwert (1989) small-sample bounds, Ng & Perron (2001) Modified AIC (MAIC), MacKinnon-White HC3 heteroskedasticity-robust t-statistics, Ljung-Box serial correlation testing with exact AR degrees-of-freedom adjustment, Engle's ARCH(1) LM test, and four high-resolution diagnostic plots.",
+  "software": "SPSS Statistics",
+  "minimum_version": "28.0.0.0",
+  "language": ["Python 3"],
+  "categories": ["Forecasting", "Time Series", "Econometrics"],
+  "python_dependencies": ["numpy", "scipy", "statsmodels", "matplotlib"]
+}
